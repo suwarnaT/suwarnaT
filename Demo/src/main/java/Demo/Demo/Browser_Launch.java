@@ -21,7 +21,7 @@ public class Browser_Launch
 	  public static WebDriver browser_launch(String url,ExtentTest test) throws Exception
 	  {
 		  
-		  System.setProperty("webdriver.chrome.driver", "C:\\Jars\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\NTS-suwarna\\git\\suwarnaT\\Demo\\Drivers\\chromedriver.exe");
 		  
 		  driver=new ChromeDriver();
 		  
