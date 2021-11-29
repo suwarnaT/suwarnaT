@@ -15,7 +15,7 @@ public class Screenshot_Capture
 	{
 		TakesScreenshot ts=((TakesScreenshot)driver);
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		String destination="C:\\Users\\NTS-suwarna\\eclipse-workspace\\Test\\reports\\Screenshots\\"+snip_name+".png";
+		String destination="C:\\Users\\NTS-suwarna\\git\\suwarnaT\\Demo\\reports\\Screenshots\\"+snip_name+".png";
 		FileHandler.copy(source, new File(destination));
 		return destination;
 	}
